@@ -2,9 +2,9 @@
 Projet Académique - M1 HETIC
 Équipe : Fadi EL CHEIKH TAHA, Célia GUYOBON, Kevin SAGAN et Julien RIBEIRO
 
-### Partie 1
+### Partie 1 : Objectifs
 
-Autre que de développer le jeu du morpion avec le langage Python, nous avions plusieurs autres objectifs lors de ce projet:
+Autre que de développer le jeu du morpion avec le langage Python, nous avions plusieurs autres objectifs lors de ce projet :
 * Concevoir le jeu en lui-même et de pouvoir laisser deux joueurs humain jouer l'un contre l'autre.
 * Créer un programme qui joue aléatoirement au jeu.
 * Créer un programme plus intelligent, qui favorise la victoire.
@@ -13,7 +13,7 @@ Autre que de développer le jeu du morpion avec le langage Python, nous avions p
 * Réaliser un graphique pour représenter les statistiques de notre programme.
 
 
-### Implémentation
+### Partie 2 : Implémentation
 
 * Fonction d'initialisation du morpion : initialize() -> void
   - Utiliser la fonction 'querySelector' de l'API du DOM pour sélectionner uniquement les éléments 'td' à l'intérieur de la 'table' du morpion (classe CSS morpion) et obtenir un tableau (variable 'cells')
