@@ -15,6 +15,18 @@ Autre que de développer le jeu du morpion avec le langage Python, nous avions p
 
 ### Partie 2 : Implémentation
 
+Tout d'abord, nous avons importer toutes les librairies dont nous aurons besoin. Il y random, pandas et pyplot avec matplotlib.
+
+Nous avons tout développer à l'aide d'une classe. Ici, GameMorpion.
+
+* Fonction d'initialisation du morpion : Possède 2 arguments : le type de joueur et le verbose :
+  - Création d'une matrice (self.grid).
+  - Création de la réponse du joueur 1 avec 'O' (self.answer_player_1).
+  - Création de la réponse du joueur 2 avec 'X' (self.answer_player_2).
+  - Création d'une liste vide qui va contenir des positions déjà joué (self.already_answer).
+  - Création d'une variable pour le verbose (self.verbose).
+  - Création d'une variable pour sélectionner le type de joueur entre 'human', 'ia_dumb_against_human', 'ia_smart_against_human', 'ia_dumb_against_ia_smart' et 'ia_smart_against_ia_smart' (self.type_player).
+    
 * Fonction d'initialisation du morpion : initialize() -> void
   - Utiliser la fonction 'querySelector' de l'API du DOM pour sélectionner uniquement les éléments 'td' à l'intérieur de la 'table' du morpion (classe CSS morpion) et obtenir un tableau (variable 'cells')
   - Utiliser la fonction forEach sur 'cells' et pour chaque élément
