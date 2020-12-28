@@ -4,7 +4,7 @@ Projet Académique - M1 HETIC
 
 ### Partie 1
 
-##### Autre que de développer le jeu du morpion avec le langage Python, nous avions plusieurs autres objectifs lors de ce projet:
+Autre que de développer le jeu du morpion avec le langage Python, nous avions plusieurs autres objectifs lors de ce projet:
 1- Premièrement et la base était de concevoir le jeu en lui-même et de pouvoir laisser deux joueurs humain jouer l'un contre l'autre.
 2- Créer un programme qui joue aléatoirement au jeu.
 3- Créer un programme plus intelligent, qui favorise la victoire.
