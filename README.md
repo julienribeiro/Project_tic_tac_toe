@@ -15,7 +15,10 @@ Autre que de développer le jeu du morpion avec le langage Python, nous avions p
 
 ### Partie 2 : Implémentation
 
-Tout d'abord, nous avons importer toutes les librairies dont nous aurons besoin. Il y random, pandas et pyplot avec matplotlib.
+Tout d'abord, nous avons importer toutes les librairies dont nous aurons besoin :
+- random
+- pandas
+- pyplot avec matplotlib.
 
 Nous avons tout développer à l'aide d'une classe. Ici, GameMorpion.
 
