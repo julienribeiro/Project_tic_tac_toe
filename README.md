@@ -1,8 +1,8 @@
 # Project_tic_tac_toe
-School project M1 HETIC
+Projet Académique - M1 HETIC
 
 
-### Introduction
+### Implémentation
 L'intelligence artificielle se fonde sur l'hypothèse que le processus de pensée humain peut être mécanisé. Cela commence dès l’antiquité mais prend une toute autre empleur avec l’arrivé des composants électroniques au milieu des années 50.
 
 Notre intelligence artificielle sera composée d’un algorithme, c’est à dire une suite d’instructions qui seront exécutées les unes après les autres, et d’une logique statistique, qui va étudier les cas possibles de jeu afin de gagner à chaque partie, notre intelligence artificielle ne pouvant donc jamais perdre.
