@@ -1,8 +1,25 @@
 # Project_tic_tac_toe
 Projet Académique - M1 HETIC
+Équipe : Fadi EL CHEIKH TAHA, Célia GUYOBON, Kevin SAGAN et Julien RIBEIRO
+
+### Partie 1
+
+##### Autre que de développer le jeu du morpion avec le langage Python, nous avions plusieurs autres objectifs lors de ce projet:
+1- Premièrement et la base était de concevoir le jeu en lui-même et de pouvoir laisser deux joueurs humain jouer l'un contre l'autre.
+2- Créer un programme qui joue aléatoirement au jeu.
+3- Créer un programme plus intelligent, qui favorise la victoire.
+4- Créer une fonction qui permet de produire autant de fois que l'on souhaite un certain nombre de partie.
+5- Obtenir des statistiques basique sur notre programme "intelligent".
+6- Réaliser un graphique pour représenter les statistiques de notre programme.
 
 
 ### Implémentation
+
+* Fonction d'initialisation du morpion : initialize() -> void
+  - Utiliser la fonction 'querySelector' de l'API du DOM pour sélectionner uniquement les éléments 'td' à l'intérieur de la 'table' du morpion (classe CSS morpion) et obtenir un tableau (variable 'cells')
+  - Utiliser la fonction forEach sur 'cells' et pour chaque élément
+    - Ajouter le listener 'play' sur l'événement 'click'
+    
 L'intelligence artificielle se fonde sur l'hypothèse que le processus de pensée humain peut être mécanisé. Cela commence dès l’antiquité mais prend une toute autre empleur avec l’arrivé des composants électroniques au milieu des années 50.
 
 Notre intelligence artificielle sera composée d’un algorithme, c’est à dire une suite d’instructions qui seront exécutées les unes après les autres, et d’une logique statistique, qui va étudier les cas possibles de jeu afin de gagner à chaque partie, notre intelligence artificielle ne pouvant donc jamais perdre.
