@@ -4,13 +4,13 @@ Projet Académique - M1 HETIC
 
 ### Partie 1 : Objectifs
 
-Autre que de développer le jeu du morpion avec le langage Python, nous avions plusieurs autres objectifs lors de ce projet :
-* Concevoir le jeu en lui-même et de pouvoir laisser deux joueurs humain jouer l'un contre l'autre.
+Dans le cadre d’un projet scolaire sur Python (“faire une simulation ou un jeu”), nous avons décidé de programmer un jeu de morpion. Par ailleurs du jeu, nous ont été donné les objectifs suivants:
+* Concevoir le jeu en lui-même et permettre à deux joueurs humains de jouer l'un contre l'autre.
 * Créer un programme qui joue aléatoirement au jeu.
-* Créer un programme plus intelligent, qui favorise la victoire.
-* Créer une fonction qui permet de produire autant de fois que l'on souhaite un certain nombre de partie.
-* Obtenir des statistiques basique sur notre programme "intelligent".
-* Réaliser un graphique pour représenter les statistiques de notre programme.
+* Créer un programme intelligent, qui ne laisse pas gagner l’adversaire et favorise la victoire.
+* Créer une fonction qui permet de produire autant de fois que l'on souhaite un certain nombre de parties.
+* Obtenir les statistiques de notre programme "intelligent".
+* Faire une représentation graphique des statistiques du programme intelligent
 
 
 ### Partie 2 : Implémentation jeu morpion
@@ -20,7 +20,7 @@ Tout d'abord, nous avons importer toutes les librairies dont nous aurons besoin 
 - pandas
 - matplotlib.pyplot
 
-Nous avons tout développer à l'intérieur d'une classe : GameMorpion.
+Nous avons développé l'intégralité de notre jeu à l'intérieur d'une classe : GameMorpion.
 
 * Fonction d'initialisation du morpion : Possède 2 arguments : le type de joueur et le verbose :
   - Création d'une matrice (self.grid).
