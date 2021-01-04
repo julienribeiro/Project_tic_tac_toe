@@ -43,7 +43,7 @@ Nous avons développé l'intégralité de notre jeu à l'intérieur d'une classe
   - Vérification si le programme sélectionne un emplacement déjà joué, si oui, on lui redemande.
   - Puis, ajout des coordonnées joué à l'intérieur de self.already_answer.
   
-* Fonction de création du programme qui joue aléatoirement (ia_smart) :
+* Fonction de création du programme qui joue intelligemment (ia_smart) :
   - Sélection de l'absisse pour le programme (x).
   - Sélection de l'ordonnée pour le programme (y).
   - Vérification si le programme sélectionne un emplacement déjà joué, si oui, on lui redemande.
@@ -53,21 +53,24 @@ Nous avons développé l'intégralité de notre jeu à l'intérieur d'une classe
   - Si le programme joue en deuxième, si place du milieu vide, il place son pion dedans soit dans un coin au hasard.
   - Ajout des coordonnées joué à l'intérieur de self.already_answer.
   
-* Fonction de création du programme qui joue aléatoirement (to_play_game) :
+* Fonction qui permet à un humain de jouer (to_play_game) :
   - Sélection de l'absisse pour le joueur humain (x).
   - Sélection de l'ordonnée pour le joueur humain (y).
   - Vérification si l'humain sélectionne un emplacement déjà joué, si oui, on lui redemande.
   - Ajout des coordonnées joué à l'intérieur de self.already_answer.
   
-* Fonction de création du programme qui joue aléatoirement (verification) :
-  - Sélection de l'absisse pour le programme (x).
-  - Sélection de l'ordonnée pour le programme (y).
-  - Ajout des coordonnées joué à l'intérieur de self.already_answer.
+* Fonction qui permet de vérifier si un joueur gagne (verification) :
+  - Vérification sur les lignes, les colonnes et les diagonales.
+  - Retourne le joueur gagnant.
   
-* Fonction de création du programme qui joue aléatoirement (to_launch_game) :
-  - Sélection de l'absisse pour le programme (x).
-  - Sélection de l'ordonnée pour le programme (y).
-  - Ajout des coordonnées joué à l'intérieur de self.already_answer. 
+* Fonction qui rassemble le tout et qui lance le jeu (to_launch_game) :
+  - Appelle self.display_grid
+  - Appelle self.to_create_name_player (si joueur humain)
+  - Appelle self.ia_dumb (si l'ia dumb joue)
+  - Appelle self.ia_smart (si l'ia smart joue)
+  - Appelle self.to_play_game (si l'humain joue)
+  - Appelle self.verification (pour la vérification d'un gagnant ou non)
+  - Vérification si le jeu est fini et qu'il n'y a aucun gagnant alors retourne une égalité.
     
 ### Partie 3 : Fonction pour X parties
 
