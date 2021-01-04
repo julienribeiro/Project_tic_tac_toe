@@ -74,9 +74,18 @@ Nous avons développé l'intégralité de notre jeu à l'intérieur d'une classe
     
 ### Partie 3 : Fonction pour X parties
 
+* Fonction qui permet de réaliser X parties (stats) : (attends 2 arguments, le type de partie et le nombre de parties)
+  - Création d'une boucle for pour réaliser autant de fois que nous le souhaitons des parties de morpion.
+  - Permet de compter aussi le nombre de victoires, défaites et matchs nuls (pour ici le programme intelligent).
+
 ### Partie 4 : Probabilités
 
+Nous avons crée brièvement un print pour afficher le nombre de parties gagnée par le programme intelligent. Puis, nous en avons déduit un pourcentage de victoire sur 1000 parties. Nous sommes ici en général à 85% de victoire!
+
 ### Partie 5 : Pie Chart
+
+Le pie chart à la toute fin du notebook permet de visualiser pour 1000 parties, le nombre de victoires, de défaites et de match nuls pour le programme intelligent.
+Nous nous sommes servis de matplotlib pour créer ce diagramme circulaire. Nous pouvons apercevoir que nous avons environ 85% de victoire, 13% de match nul et 1% de défaite (contre le programme qui joue aléatoirement).
 
 ### Partie 6 : Conclusion
 
@@ -94,7 +103,7 @@ Jouer les cases stratégiques pour la victoire, soient:
 
 Observer les différents patterns de victoire. On simule le prochain tour de l’adversaire.
 Lorsqu’une combinaison de 2 cases permet une victoire au prochain tour, alors on y met notre pion.
-Nous avons ainsi créé un programme intelligent quasi-imbattable (84% de victoire), et qui arrive à raisonner en fonction de l’adversaire.
+Nous avons ainsi créé un programme intelligent quasi-imbattable puisque comme visible sur notre pie chart, nous avons 1% de défaite. Notre programme arrive à raisonner en fonction de l’adversaire.
 
 Le jeu du morpion étant assez simple (9 cases avec 3 issues possibles: victoire, défaite ou match nul), les 9 cases de ce jeu donnent tout de même  9! = 362 880 combinaisons de coups possibles. (le mouvement d’un joueur dépendant du précédent).
 Notre programme raisonnant seulement en fonction du coup précédent et ne parvenant seulement à anticiper le coup suivant, (parallèle avec les échecs qui demande d’anticiper non pas un coup, mais un jeu entier)
