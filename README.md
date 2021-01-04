@@ -72,13 +72,14 @@ Nous avons développé l'intégralité de notre jeu à l'intérieur d'une classe
 
 Afin de créer l’IA intelligente, nous avons décidé de la faire penser comme un humain, soit prioriser les tâches. 
 Lorsqu’un humain joue au morpion:
-Il veut gagner à tout prix
-Il veut empêcher l’adversaire de gagner
+* Il veut gagner à tout prix
+* Il veut empêcher l’adversaire de gagner
+
 Ainsi, les différentes techniques pour gagner/ empêcher l’adversaire de gagner - par ordre de priorité - sont:
 Jouer les cases stratégiques pour la victoire, soient:
-La case du milieu
-Les coins
-Les cases sur les côtés
+* La case du milieu
+* Les coins
+* Les cases sur les côtés
 
 
 Observer les différents patterns de victoire. On simule le prochain tour de l’adversaire.
