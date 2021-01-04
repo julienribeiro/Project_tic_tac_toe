@@ -46,11 +46,17 @@ Nous avons développé l'intégralité de notre jeu à l'intérieur d'une classe
 * Fonction de création du programme qui joue aléatoirement (ia_smart) :
   - Sélection de l'absisse pour le programme (x).
   - Sélection de l'ordonnée pour le programme (y).
+  - Vérification si le programme sélectionne un emplacement déjà joué, si oui, on lui redemande.
+  - Vérification si le programme peut gagner au tour en question, si oui, il joue pour gagner.
+  - Vérification si aucune position fait gagner le programme, alors il joue pour bloquer l'adversaire.
+  - Si le programme joue en premier, il place tout le temps son premier pion au milieu soit (2, 2).
+  - Si le programme joue en deuxième, si place du milieu vide, il place son pion dedans soit dans un coin au hasard.
   - Ajout des coordonnées joué à l'intérieur de self.already_answer.
   
 * Fonction de création du programme qui joue aléatoirement (to_play_game) :
-  - Sélection de l'absisse pour le programme (x).
-  - Sélection de l'ordonnée pour le programme (y).
+  - Sélection de l'absisse pour le joueur humain (x).
+  - Sélection de l'ordonnée pour le joueur humain (y).
+  - Vérification si l'humain sélectionne un emplacement déjà joué, si oui, on lui redemande.
   - Ajout des coordonnées joué à l'intérieur de self.already_answer.
   
 * Fonction de création du programme qui joue aléatoirement (verification) :
