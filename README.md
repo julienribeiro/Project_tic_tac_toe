@@ -70,7 +70,7 @@ Nous avons développé l'intégralité de notre jeu à l'intérieur d'une classe
 
 ### Partie 6 : Conclusion
 
-Afin de créer l’IA intelligente, nous avons décidé de la faire penser comme un humain, soit prioriser les tâches. 
+Afin de créer le programme "intelligent", nous avons décidé de le faire penser comme un humain, soit prioriser les tâches. 
 Lorsqu’un humain joue au morpion:
 * Il veut gagner à tout prix
 * Il veut empêcher l’adversaire de gagner
@@ -84,8 +84,8 @@ Jouer les cases stratégiques pour la victoire, soient:
 
 Observer les différents patterns de victoire. On simule le prochain tour de l’adversaire.
 Lorsqu’une combinaison de 2 cases permet une victoire au prochain tour, alors on y met notre pion.
-Nous avons ainsi créé une IA intelligente quasi-imbattable (84% de victoire), et qui arrive à raisonner en fonction de l’adversaire.
+Nous avons ainsi créé un programme intelligent quasi-imbattable (84% de victoire), et qui arrive à raisonner en fonction de l’adversaire.
 
 Le jeu du morpion étant assez simple (9 cases avec 3 issues possibles: victoire, défaite ou match nul), les 9 cases de ce jeu donnent tout de même  9! = 362 880 combinaisons de coups possibles. (le mouvement d’un joueur dépendant du précédent).
-Notre ia raisonnant seulement en fonction du coup précédent et ne parvenant seulement à anticiper le coup suivant, (parallèle avec les échecs qui demande d’anticiper non pas un coup, mais un jeu entier)
+Notre programme raisonnant seulement en fonction du coup précédent et ne parvenant seulement à anticiper le coup suivant, (parallèle avec les échecs qui demande d’anticiper non pas un coup, mais un jeu entier)
 
