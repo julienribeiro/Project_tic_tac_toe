@@ -40,7 +40,8 @@ Nous avons développé l'intégralité de notre jeu à l'intérieur d'une classe
 * Fonction de création du programme qui joue aléatoirement (ia_dumb) :
   - Sélection de l'absisse pour le programme (x).
   - Sélection de l'ordonnée pour le programme (y).
-  - Ajout des coordonnées joué à l'intérieur de self.already_answer.
+  - Vérification si le programme sélectionne un emplacement déjà joué, si oui, on lui redemande.
+  - Puis, ajout des coordonnées joué à l'intérieur de self.already_answer.
   
 * Fonction de création du programme qui joue aléatoirement (ia_smart) :
   - Sélection de l'absisse pour le programme (x).
